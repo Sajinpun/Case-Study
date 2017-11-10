@@ -7,27 +7,28 @@
         <title>Online E-Commerce Shop</title>
         
         
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initail-scale=1.0, maximum-scale=1">
+<meta charset="utf-8">
+        
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
         
         
     
 <!--        MY STYLE SHEETS -->
-<link href="https://fonts.googleapis.com/css?family=Mukta"                  rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
         
-<link rel="stylesheet" type="text/css"                  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--        CSS RESET NORMALIZE-->
 <link rel="stylesheet" type="text/css" href="css/normalize.css">
-        
+<!--        MY OWN CSS-->
 <link rel="stylesheet" type="text/css" href="css/myCSS.css">
         
 
 
     </head>
-     
+        
     
     <body>
-        <section id="home" class="homeBgImage section1">
+        <section id="home" class="section1 homeBgImage">
             <header>
 <!--                IMAGE FOR HOMEPAGE-->
                 
@@ -36,10 +37,12 @@
                 <div class="logoC">
                     <a href="#home"><img src="img/logo.png" alt="The Company Logo"/></a>
                 </div>
+                <div class="cartIcon">
+                    <a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                </div>
                 
                 
 <!--                NAVIGATION SECTION-->
-                
                 <div class="navC">
                     <span class="navBtn">&#9776;</span>
                     <nav>
@@ -49,8 +52,8 @@
                             <li><a href="#sales">Sales</a></li>
                             <li><a href="#about">About</a></li>
                             <li><a href="#contact">Contact</a></li>
-                            <li class="viewCart"><a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>
-                                view cart</a></li>
+                            <li class="viewCart"><a href="http://www.paypasl.co.uk" target="_blank"><i class="fa fa-shopping-basket" aria-hidden="true"></i> view cart</a></li>
+
                         </ul>
                     </nav>
                 </div>
@@ -318,15 +321,19 @@
         
         <!-- LINKING MAIN AND  EXTERNAL SCRIPTS =========================== -->
                 
-                <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
+ <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous">
+</script>
                 
                 
                 
                 
-    <script src="js/myJS.js"></script>
+    <script src="js/myJS.js"></script
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=A&callback=initMap">
+    </script>
              
     </body>
 </html>
